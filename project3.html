@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart.com</title>
+    <link rel="shortcut icon" href="./flipkarticon.png" type="image/x-icon">
+  </head>
+  <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+  <body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      main nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: dodgerblue;
+        height: 60px;
+        width: 100%;
+        padding: 20px;
+        
+       
+      }
+      .search {
+        display: flex;
+        padding: 0px 16px;
+        border-radius: 5px;
+        font-size: 14px;
+        height: 36px;
+        width: 550px;
+      }
+      #log {
+        padding: 5px 40px;
+        background-color: #fff;
+        color: #2874f0;
+        border: 1px solid white;
+        margin-left: 20px;
+        font-weight: bold;
+        font-size: 15px;
+       
+      }
+      #nav-items {
+      
+        display: flex;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 20px;
+      }
+      #bs {
+        display: flex;
+        color: #fff;
+        font-size: 20px;
+        padding: 0 20px 20px 0px;
+      }
+      #child1 {
+        height: 40px;
+        width: 100%;
+        box-shadow: 0.5px 1px 1px ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 13px;
+        background-color: #fff;
+        padding: 15px;
+        font-weight: bold;
+        
+      }
+      #summary{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+        font-size: 13px;
+        font-weight: bold;
+        
+      }
+      #ic1{
+        color: black; 
+      }
+
+      #child2{
+        height: 700px;
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+       
+      }
+      #login{
+        /* border: 1px solid; */
+        border-radius: 4px;
+        height: 550px;
+        width: 55%; 
+        display: flex;
+        justify-content: start;
+        box-shadow: 1px 2px 4px;
+      }
+      #a1{
+        height: 100%;
+        width: 40%;
+        background-color: #2874f0;
+        color: #fff;
+        display: flex;
+      }
+      #parenta2{
+        height: 100%;
+        width: 60%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+             
+
+      }
+      #lefta1{
+        height: 40px;
+        line-height: 0.5;
+        margin-top: 50px;img
+        margin-left:30px;
+        font-size: 30px;
+        font-weight: bold;
+       
+      }
+      #lefta1-1{
+        height: 40px;
+        color: rgb(223, 223, 223);
+        margin-top: 100px;
+        margin-left: -75px;
+        font-size: 20px;
+        font-weight: 300;
+      }
+      #lefta2{
+        font-size: 17px;
+        line-height: 1.5;
+      }
+      #form{
+        margin-top: 50px;
+        width: 100%;
+      }
+      .form{
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid dodgerblue;
+        display: block;
+        height: 50px;
+        width: 100%;
+        background-color: #fff;
+        text-align: left;
+        
+      }
+      #para{
+        text-align: left;
+        font-size: 12px;
+        margin-top: 35px;
+        color: grey;
+      }
+      #rbtn{
+        background-color: #fb641b;
+        color: #fff;
+        height: 50px;
+        width: 100%;
+        margin-top: 10px;
+       outline: none;
+       border: none;
+       box-shadow: 1px 1px 2px grey;
+       
+      }
+      #ca2{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+      }
+      #icon{
+        color: #fff;
+      }
+      #plus{
+        position: relative;
+        border-radius: 30px;
+        left: -10px;
+      }
+      #sticker{
+        background-size: 100px;
+        display: flex;
+        background-position: center;
+        margin-top: 170px;
+        margin-left: -30px;
+      }
+      #para2{
+        color: #2874f0;
+        font-size: 13px;
+        font-weight: 550;
+        margin-top: 300px;
+        margin-left: 150px;
+        
+      }
+    </style>
+    <main>
+      <nav>
+        <img id="plus" src="./flipkart-plus.png" alt="">
+        
+        <input 
+          class="search"
+          type="search"
+          name=""
+          id=""
+          placeholder="Search for products, brands and more"/><a href=""><i class="fa fa-search" aria-hidden="true" id="ic1"></i></a>
+
+
+
+        <input id="log" type="submit" value="Login" />
+        <a id="nav-items" href="">Bestseller</a>
+        <a id="nav-items" href="">More</a>
+        <a id="nav-items" href=""><i class="fa fa-shopping-cart" aria-hidden="true" id="icon"></i>Cart</a>
+      </nav>
+      <section id="container"></section>
+      <div id="parent">
+        <div id="child1">
+          <details>
+            <summary>Electronics</summary>
+          </details>
+
+          <details>
+            <summary>TVs & Appliances</summary>
+          </details>
+
+          <details>
+            <summary>Men</summary>
+          </details>
+
+          <details>
+            <summary>Women</summary>
+          </details>
+
+          <details>
+            <summary>Baby & Kids</summary>
+          </details>
+
+          <details>
+            <summary>Home & Furniture</summary>
+          </details>
+
+          
+            <summary>Electronics</summary>
+          </details>
+
+          <a id="summary" href="">Flights</a>
+          <a id="summary" href="">Offer Zone</a>
+        </div>
+        <div id="child2">
+          <div id="login">
+            <div id="a1">
+              <div id="lefta1">Login</div>
+              <div id="lefta1-1">
+                <div id="lefta2">Get access to your Orders,</div>
+                <div id="lefta2"> Wishlist and Recommendations</div>
+                <img id="sticker" src="./flipkart-sticker.png" alt="">
+              </div>
+             
+            </div>
+            <div id="parenta2">
+              <div id="ca2">
+                <form action="" id="form">
+                  <input placeholder="Enter Email/Mobile number" class="form" type="email" name="" id="">
+                  <p id="para">By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</p>
+                  <input  type="submit" value="Request OTP" id="rbtn">
+                  <p id="para2">New to Flipkart? Create an account</p>
+                </form>
+             
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
